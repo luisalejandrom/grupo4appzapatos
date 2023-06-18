@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&family=Nunito+Sans:wght@300;400&display=swap');
+:root{
+	--f7-theme-color:#4D5950;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #4D5950; /*navbar link*/
+	--f7-navbar-text-color:#4D5950;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-verde:#9CD47D;
+	--color-gris:#7C899F;
+	--color-gris-claro:#F1F1F1;
+	--color-amarillo:#ffc800;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #4D5950;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 2px 0px 0;
+}
+
+.img-fluid{
+	max-width: 50%;
+	max-height: 50%;
+	padding-left: 10%;
+	padding-top: 8%;
+}
+#panel-menu .perfil{
+	background-color: #fff;
+	padding: 8%;
+}
+.perfil h6{
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #Fff;
+}
+
+.btn-categorias{
+	background-color: #F1F1F1;
+	border-radius: 20px;
+	width: 100px;
+	padding: 5px 15px;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+}
+
+.btn-categorias .nombre-categoria{
+	padding: 3px 0px;
+	font-size: 15px;
+}
+
+.card-products .card{
+	background-color: #f6f6f6;
+	border: 1px solid #eee;
+	align-content: center;
+	padding: 10px;
+	text-align: left;
+	min-height: 230px;
+}
+.card-products .card h4{
+	font-size: 18px;
+	font-size: 20px;
+}
+.block-title-large{
+	color: #4D5950;
+	text-align: center;
+}
+.block-title{
+	color: #4D5950;
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+.card-products .item-shop{
+	padding-left: 20px;
+}
+
+.footer-section .footer-items{
+	align-content: center;
+}
+
+.block img{
+	
+}
+
+.editar-perfi{
+	align-content: center;
+}
+
+ .form {
+    background-image: url("../img/Fondo Imagen.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .login-form input[type="text"],
+ .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+ }
+
+ .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4D5950;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+
+ .login-form button:hover {
+    background-color: #45a049;
+ }
+
+

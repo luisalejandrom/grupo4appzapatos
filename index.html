@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 App</title>
+    <link href="css/framework7.bundle.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section id="panel-menu" class="panel panel-left panel-reveal">
+				<div class="list media-list">
+					<a href="/registro/" class="item-link item-content panel-close">
+						<div class="block perfil">
+							<div class="row">
+							<article class="col-15">
+								<span class="material-symbols-outlined">account_circle</span>
+							</article>
+
+							<article class="col-85">
+							<h6> Usuario Inicial </h6>
+							</article>
+
+
+							</div>
+
+						</div>
+					</a>
+				</div>
+				<div class="list media-list">
+                <ul>
+					<li>
+                    <a href="/home/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">home</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Inicio</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/hombres/" class="item-link item-content panel-close">
+                      <div class="item-media">
+						<span class="material-symbols-outlined">man_2</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Hombres</div>
+                       
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/mujeres/" class="item-link item-content panel-close">
+                      <div class="item-media"><span class="material-symbols-outlined">woman_2</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Mujeres</div>
+                        
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/niños/" class="item-link item-content panel-close">
+                      <div class="item-media"><span class="material-symbols-outlined">boy</span>
+						</div>
+                      <div class="item-inner">
+                        <div class="item-title">Niños</div>
+                      </div>
+                    </a>
+                  </li>
+                   <li>
+                  <a href="/niñas/" class="item-link item-content panel-close">
+                    <div class="item-media"><span class="material-symbols-outlined">girl</span></div>
+                    <div class="item-inner">
+                      <div class="item-title">Niñas</div>
+                    </div>
+                  </a>
+                </li>
+                   <li>
+                <a href="/acercade/" class="item-link item-content panel-close">
+                  <div class="item-media"><span class="material-symbols-outlined">face_6</span>
+					</div>
+                  <div class="item-inner">
+                    <div class="item-title">Acerca de Nosotros</div>
+                  </div>
+                </a>
+              </li>
+                 <li>
+              <a href="/usuario/" class="item-link item-content panel-close">
+                <div class="item-media"><span class="material-symbols-outlined">settings</span>
+				  </div>
+                <div class="item-inner">
+                  <div class="item-title">Configuraciones</div>
+                </div>
+              </a>
+            </li>
+                </ul>
+              </div>
+				
+			</section>
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="/usuario/" class="link"><span class="material-symbols-outlined">account_circle</span></a>
+					</div>
+				  	
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <h2 class="block-title-large block-title">Bienvenido otra vez!</h2>
+				  
+				  <section id="carousel" class="block">
+				  
+                  <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                      <img src="img/Hombre-zapato-4.png" alt="" class="img-fluid"/>					  
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/Hombre-zapato-3.png" alt="" class="img-fluid"/>
+					  </div>
+                      <div class="swiper-slide">
+					  <img src="img/Hombre-zapato-2.png" alt="" class="img-fluid"/>
+					  </div>
+                   
+                  </div>
+              </div>
+				  
+				  </section>
+				  
+				  <h2 class="block-title">Categorias</h2>
+				  
+				  <section id="categorias" class="block">
+					  
+					  <div class="swiper-container swiper-init" data-space-between="50" data-slides-per-view="3">
+					  <div class="swiper-wrapper">
+					  
+					  
+					  
+					  <div class="swiper-slide">
+						  <a href="/hombres/" class="link panel-close">
+					  <div class="btn-categorias">
+						  <div class="row">
+						  
+							  <article class="col-30">
+							  <span class="material-symbols-outlined">male</span>
+							  
+							  </article>
+							  
+							  <article class="col-70 nombre-categoria">
+							  Hombres
+							  </article>						  
+						  </div>						  					  
+					  </div>
+                    </a>
+                  </div>
+						<div class="swiper-slide">  
+							<a href="/mujeres/" class="link">
+                        <div class="btn-categorias">
+                                <div class="row">
+
+                                    <article class="col-30">
+                                    <span class="material-symbols-outlined">female</span>
+
+                                    </article>
+
+                                    <article class="col-70 nombre-categoria">
+                                    Mujeres
+                                    </article>						  
+                                </div>						  					  
+                        </div>
+							</a>
+						  </div>
+						  <div class="swiper-slide">  
+							<a href="/niños/" class="link">
+                       <div class="btn-categorias">
+                                <div class="row">
+
+                                    <article class="col-30">
+                                    <span class="material-symbols-outlined">boy</span>
+
+                                    </article>
+
+                                    <article class="col-70 nombre-categoria">
+                                    Niños
+                                    </article>						  
+                                </div>						  					  
+                        </div>
+								</a>
+						  </div>
+						  <div class="swiper-slide">  
+							<a href="/niñas/" class="link">
+                        <div class="btn-categorias">
+                                      <div class="row">
+
+                                          <article class="col-30">
+                                          <span class="material-symbols-outlined">girl</span>
+
+                                          </article>
+
+                                          <article class="col-70 nombre-categoria">
+                                          Niñas
+                                          </article>						  
+                                      </div>						  					  
+                              </div>
+								</a>
+						  </div>
+						  </div>
+					  </div>
+				  </section>
+				  
+				  <br><h2 class="block-title">Ultimos Modelos</h2>
+				  
+				  <section class="card-products block">
+					  
+					  <div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+						  <img src="img/Hombre-zapato-1.jpg" alt="" class="img-fluid item-shop">
+						</a>
+						  <h3>Air Jordan 1</h3>
+						  <p>Gold, Black</p>
+						  <h4>$ 89.99</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+                         <img src="img/Mujer-zapato-1.jpg" alt="" class="img-fluid">
+						</a>
+
+						  <h3>Air Jordan 1</h3>
+						  <p>Red, White</p>
+						  <h4>$ 79.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+					  
+					  
+				  		<br><div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+						  <img src="img/Mujer-zapato-6.jpg" alt="" class="img-fluid">
+						</a>
+						  <h3>Air Jordan 1</h3>
+						  <p>Blue, Aquamarine</p>
+						  <h4>$ 99.99</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+                         <img src="img/Nino-Zapato- (4).jpg" alt="" class="img-fluid">
+						</a>
+						  <h3>Air Jordan 1 Lakers</h3>
+						  <p>Special Edition</p>
+						  <h4>$ 99.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+					  <br><div class="row">
+					  
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+						  <img src="img/Nino-Zapato- (3).jpg" alt="" class="img-fluid">
+						</a>
+						  <h3>Air Jordan 1</h3>
+						  <p>Blue, Gray</p>
+						  <h4>$ 89.99</h4>
+                          </div>
+					</article>
+					  <article class="col">
+						  <div class="card">
+						<a href="/producto/">
+                         <img src="img/Mujer-zapato-4.jpg" alt="" class="img-fluid">
+						</a>
+						  <h3>Air Beige 1 Lakers</h3>
+						  <p>Special Edition</p>
+						  <h4>$ 99.99</h4>
+							  </div>
+					</article>
+						  
+					  </div>
+				  </section>
+				  
+				  <section class="footer-section block">
+					  <div class="row footer-items">
+					 
+					  <article class="col">
+						  <span class="material-symbols-outlined">copyright</span>
+						 
+                      </article>
+						  <article class="col">
+							<span class="material-symbols-outlined">person_apron</span>
+                      </article>
+						  <article class="col">
+							  <span class="material-symbols-outlined">nest_protect</span>
+							 
+                      </article>
+						  
+					  </div>				  				  
+				  </section>
+				  
+			  </section>
+
+			</section>
+			
+		</div>
+	</div>
+	
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>
